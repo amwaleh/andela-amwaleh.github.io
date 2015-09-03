@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-Equiv='refresh' content=300>
+
+    <title>complex Number</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   
+   
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="#page-top">Complex Numbers</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+        <a href="#page-top"></a>
+        </li>
+
+        </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+<!--          -->
+
+
+
+    <!-- Header -->
+<header class="col-lg-12">
+  <div class="container">
+            <div class="row1">
+
+
+                <div  class="col-lg-12 col-md-12">
+                    <div id="results" class="col-lg-6 col-xs-offset-3 "></div>
+                </div>
+
+
+
+
+             <div class=" col-lg-8 col-md-12">
+
+
+    <div class="col-lg-12 col-md-12" style="background-color=#ccc; ">
+
+     <form class="form-horizontal">
+       <fieldset>
+
+        <!-- Form Name -->
+        <legend></legend>
+
+
+        <div class="panel col-lg-7 panel-primary" >
+    <div class="panel-heading">
+        <h3 class="panel-title" id="#topic">complex Numbers</h3>
+    </div>
+    <div class="panel-body col-lg-12 col-xs-12" id="substance">
+        
+       
+           
+           A complex number is a number that can be expressed in the form a + bi,
+            where a and b are real numbers and i is the imaginary unit, that satisfies
+         the equation i<sup>2</sup> = −1
+       
+
+
+    </div>
+    </div>
+
+<div >
+        <!-- Prepended text-->
+        <div class="form-group">
+        <label class=" control-label" for="prependedtext"></label>
+        <div class="col-lg-5">
+        <div class="input-group">
+        <span class="input-group-addon">a</span>
+        <input id="alpha" name="prependedtext" class="form-control" placeholder="a+ib" type="text" onchange="" ="spacer("#alpha")"c>
+        </div>
+
+        </div>
+        &nbsp;
+       
+
+
+        <!-- Prepended text-->
+       
+        <label class=" control-label" for="prependedtext"></label>
+        <div class="col-lg-5">
+        <div class="input-group">
+        <span class="input-group-addon">b</span>
+        <input id="beta" name="prependedtext" class="form-control" placeholder="a+ib" type="text" onchange="" ="spacer("#beta")">
+        </div>
+
+        </div>
+        </div>
+</div>        
+
+
+
+      </fieldset>
+     </form>
+
+        </div>
+     </div> 
+
+
+
+               <!-- Button -->
+        <div class="col-lg-3 col-md-12 " >
+        
+       
+        <button id="sub" name="sub" class="btn btn-primary" onclick="complex('sub')">Subtract</button>
+        <button type="button" class="btn btn-primary" onclick="complex('add')">Add</button>
+        <button type="button" class="btn btn-primary"  onclick="complex('mul')">Multiply</button>
+        <button type="button" class="btn btn-primary" onclick="complex('div')">Division</button>
+        <button type="button" class="btn btn-primary" onclick="complex('sqrt')">squareRoot</button>
+        <button type="button" class="btn btn-primary"> x <sup>2</sup>     </button>
+        <button type="button" class="btn btn-primary" onclick="complex('abs')">abs<i> ( r) </i>
+        </button><button type="button" class="btn btn-primary">sin</button>
+        <button type="button" class="btn btn-primary">cos</button>
+        <button type="button" class="btn btn-primary" onclick="complex('pow')"> <b>e</b> <sup>xi</sup></button>
+
+
+        <button type="button" class="btn btn-primary" onclick="complex('con')">conjugate</button>
+
+        
+     </div>
+    </div> 
+  </div>
+</header>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></
+    
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    
+
+ <script type="text/javascript" src="complex.js"></script>
+  <script type="text/javascript" src="calculate.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    
+    <script>
+
+    function complex(op){    
+    $(document).ready(function() {
+        var a = document.getElementById('alpha').value,
+        b = document.getElementById('beta').value;
+
+$('#results').text(calculate(a,b,op));
+
+
+})
+
+    };
+    </script>
+
+</body>
+
+</html>
