@@ -1,0 +1,17 @@
+0000000000000000000000000000000000000000 8b341cdcf73015d558231baa4500a7b6862f4fb5 mwalex <alexmuturi@gmail.com> 1441026023 +0300	commit (initial): first commit
+8b341cdcf73015d558231baa4500a7b6862f4fb5 82a006c6108be1876139d7034b52b92c1d470eed mwalex <alexmuturi@gmail.com> 1441026520 +0300	commit: add first js file
+82a006c6108be1876139d7034b52b92c1d470eed 69b551b74432d1ca7307cd4581bb58b061db7506 mwalex <alexmuturi@gmail.com> 1441031168 +0300	commit: add code for complex
+69b551b74432d1ca7307cd4581bb58b061db7506 cb96f3e017beec1ebfeab6f80161807215b4039d mwalex <alexmuturi@gmail.com> 1441101855 +0300	commit: add string parser function
+cb96f3e017beec1ebfeab6f80161807215b4039d 2edea0e8642b14d86be902a654969add2f4720da mwalex <alexmuturi@gmail.com> 1441103768 +0300	commit: add function
+2edea0e8642b14d86be902a654969add2f4720da 685caadd063ea32b597883062db0e8ec5cb3fa06 mwalex <alexmuturi@gmail.com> 1441106554 +0300	commit: add function divide
+685caadd063ea32b597883062db0e8ec5cb3fa06 2f348c9e11d0ebdc38c885d1a68e53baa686aee8 mwalex <alexmuturi@gmail.com> 1441113393 +0300	commit: complete squareRoot function
+2f348c9e11d0ebdc38c885d1a68e53baa686aee8 5125ed1c03e5a8310911c1d0b4febe39cb5294e4 mwalex <alexmuturi@gmail.com> 1441126669 +0300	commit: Add web files
+5125ed1c03e5a8310911c1d0b4febe39cb5294e4 dfd01cb3fb3c7908d285363b46da6fd7a1f6397f mwalex <alexmuturi@gmail.com> 1441127487 +0300	commit: add readme
+dfd01cb3fb3c7908d285363b46da6fd7a1f6397f 5338751a180764dc5e024c887982e6125c7fa63d mwalex <alexmuturi@gmail.com> 1441127665 +0300	commit: add readme
+5338751a180764dc5e024c887982e6125c7fa63d a0b171486be9b31d3323f18f4a92c18644c773c9 mwalex <alexmuturi@gmail.com> 1441143294 +0300	commit: add calculate.js
+a0b171486be9b31d3323f18f4a92c18644c773c9 2d062368f788152953a470dc4d83992d42468073 mwalex <alexmuturi@gmail.com> 1441186046 +0300	commit: Add testing conditions
+2d062368f788152953a470dc4d83992d42468073 ea92ba31e180316a2afab19c514b85500e1bc3a8 mwalex <alexmuturi@gmail.com> 1441193831 +0300	commit: Add pow function
+ea92ba31e180316a2afab19c514b85500e1bc3a8 b87d906fb04eb5d19fa4ada74cfa1d27c3074b85 mwalex <alexmuturi@gmail.com> 1441207929 +0300	commit: Add web ui
+b87d906fb04eb5d19fa4ada74cfa1d27c3074b85 552555efbc2ff2a55e9145b093c176f7d0b7c008 mwalex <alexmuturi@gmail.com> 1441281183 +0300	commit: Add Descriptions
+552555efbc2ff2a55e9145b093c176f7d0b7c008 8cfe9b4056ba26eaf2adf07c1fcfdc18111fd0c1 mwalex <alexmuturi@gmail.com> 1441283195 +0300	commit: Add Descriptions 2
+8cfe9b4056ba26eaf2adf07c1fcfdc18111fd0c1 f00f518ab84f6d5e884bbdc32d4c5db17fa804ee mwalex <alexmuturi@gmail.com> 1441291195 +0300	commit: update Descriptions

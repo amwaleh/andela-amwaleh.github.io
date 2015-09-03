@@ -51,6 +51,7 @@ describe("Complex Numbers Library", function() {
 	});
 
 	it('should z^w, where z and w are complex', function(){
+<<<<<<< HEAD
 		var n = new Complex('2').pow(2).toString();
 		expect(n).toEqual('4');
 	});
@@ -60,3 +61,18 @@ describe("Complex Numbers Library", function() {
 
 })
 module.exports.Complex = Complex;
+=======
+		var n = new Complex(1, 2).pow(new Complex(3, 4)).toPrecision(10).toString();
+		expect(n).to.equal('0.1290095941+0.03392409291i');
+	});
+
+it('should test the equals method', function(){
+		expect(new Complex(2, 3).equals(new Complex(2, 3))).to.be.ok();
+		expect(new Complex(2, 3).equals(new Complex(2, 4))).not.to.be.ok();
+		expect(new Complex(2, 3).equals(new Complex(1, 3))).not.to.be.ok();
+	});
+
+
+
+})
+>>>>>>> f71dfcdf5b263b3bbaf2379890f736a5dcd17150
