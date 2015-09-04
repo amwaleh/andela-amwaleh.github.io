@@ -1,3 +1,7 @@
+
+
+
+
 function description(a, b) {
   if (a === '') {
     a = 'a'
@@ -6,8 +10,8 @@ function description(a, b) {
     b = 'b';
   }
   this.add =
-    "To add or subtract complex numbers, combine their\
-real parts and their imaginary parts separately.\
+    "<b class='text-success'>Complex.add(x)</b><br>\
+ add complex number \
 <pre class='col-lg-12' >\
 var cx = new complex ('" +
     a + "').add('" + b + "') </pre>";
@@ -67,6 +71,16 @@ the power can be real number or complex\
 var cx = new complex('" +
     a + "').divide('" + b +
     "'); </pre>";
+
+this.arg =
+    "<b class='text-success'>Complex.arg(x)</b><br>\
+ Return the polar value of a complex number\
+ \
+\
+<pre class='col-lg-12 text-success' >\
+var cx = new complex('" +
+    a + "').arg();</pre>";
+
 }
 
 function spacer(element) {
@@ -117,5 +131,10 @@ var calculate = function(a, b,
     case "pow":
       p.innerHTML = d.pow;
       return new Complex(a).pow(b).toString();
+
+     case "arg":
+      p.innerHTML = d.arg;
+      return new Complex(a).arg().toString();
   }
 }
+

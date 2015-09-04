@@ -1,3 +1,6 @@
+
+(function(root) {
+
 function Complex(a, b) {
     if (!(this instanceof Complex)) {
       return new Complex(a, b);
@@ -178,4 +181,16 @@ Complex.prototype = {
 function send_error() {
   return 'ERROR insert complex numbers'
 }
-exports.Complex = Complex;
+
+
+if (typeof define === "function" && define["amd"]) {
+        define([], function() {
+            return Complex;
+        });
+    } else if (typeof exports === "object") {
+        module["exports"] = Complex;
+    } else {
+        root["Complex"] = Complex;
+    }
+
+})(this);
