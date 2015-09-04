@@ -69,7 +69,7 @@ Returns value of complex numbers raised to a certain power \
 the power can be real number or complex\
 <pre class='col-lg-12 text-success' >\
 var cx = new complex('" +
-    a + "').divide('" + b +
+    a + "').pow('" + b +
     "'); </pre>";
 
 this.arg =
