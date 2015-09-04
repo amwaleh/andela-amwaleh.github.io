@@ -36,6 +36,7 @@ var parse = function(a, b) {
         send_error();
       }
       break;
+      
     case "string":
       Q["i"] = /* void */ Q["r"] = 0;
       for (var reg = /[+-]?[\di.]+/g, tmp, tr, i = 0; null !== (tmp = reg.exec(
