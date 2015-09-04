@@ -34,7 +34,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#page-top">Complex Numbers</a>
+          <a class="navbar-brand" href="#page-top">Complex <i>i</i></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -100,7 +100,7 @@
                       <div class="col-lg-5  col-md-12 col-xs-12">
                         <div class="input-group">
                           <span class="input-group-addon">b</span>
-                          <input id="beta" name="prependedtext" class="form-control" placeholder="a+ib" type="text" onchange="" ="spacer("#beta")">
+                          <input id="beta" name="prependedtext" class="form-control" placeholder="a+ib" type="text" onchange="" ="spacer("#beta")" data-togglet="tooltip" title="second value of  add, subtract, pow, divide ">
                         </div>
                       </div>
                     </div>
@@ -116,10 +116,10 @@
             <button type="button" class="btn btn-primary"  onclick="complex('mul')">Multiply</button>
             <button type="button" class="btn btn-primary" onclick="complex('div')">Division</button>
             <button type="button" class="btn btn-primary" onclick="complex('sqrt')">√sqrt</button>
-            <button type="button" class="btn btn-primary"> x <sup>2</sup>     </button>
+            <button type="button" class="btn btn-primary" onclick="complex('square')"> x <sup>2</sup>     </button>
             <button type="button" class="btn btn-primary" onclick="complex('abs')">abs<i> <small>|Z|</small> </i>
             </button><button type="button" class="btn btn-primary" onclick="complex('arg')">arg</button>
-            <button type="button" class="btn btn-primary">cos</button>
+            
             <button type="button" class="btn btn-primary" onclick="complex('pow')"> <b>e</b> <sup>xi</sup></button>
             <button type="button" class="btn btn-primary" onclick="complex('con')">conjugate</button>
           </div>

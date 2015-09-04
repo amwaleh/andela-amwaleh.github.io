@@ -135,6 +135,9 @@ var calculate = function(a, b,
      case "arg":
       p.innerHTML = d.arg;
       return new Complex(a).arg().toString();
+      case "square":
+      p.innerHTML = d.pow;
+      return new Complex(a).pow(2).toString();
   }
 }
 

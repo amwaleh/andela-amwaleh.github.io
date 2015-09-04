@@ -36,7 +36,7 @@ var parse = function(a, b) {
         send_error();
       }
       break;
-      
+
     case "string":
       Q["i"] = /* void */ Q["r"] = 0;
       for (var reg = /[+-]?[\di.]+/g, tmp, tr, i = 0; null !== (tmp = reg.exec(
@@ -47,7 +47,7 @@ var parse = function(a, b) {
             tr += "1";
           Q["i"] += parseFloat(tr); // 
         } else {
-          Q["r"] += parseFloat(tmp[0]);
+          Q["r"] += parseFloat(tmp[0]);// the number passed had had a real numer
         }
       }
       // No single iteration or nothing was sent 
