@@ -16,6 +16,7 @@ var Q = {
   r: 0,
   i: 0
 };
+
 var parse = function(a, b) {
   //if a is empty sting 
   if (a === null || a === undefined) {
@@ -38,7 +39,8 @@ var parse = function(a, b) {
       break;
 
     case "string":
-      Q["i"] = /* void */ Q["r"] = 0;
+      Q["i"] =null /* void */, 
+      Q["r"] = 0;
       for (var reg = /[+-]?[\di.]+/g, tmp, tr, i = 0; null !== (tmp = reg.exec(
         a)); i = 1) {
         if (tmp[0].indexOf("i") !== -1) { //if i is first letter then --NB if expression is i alone

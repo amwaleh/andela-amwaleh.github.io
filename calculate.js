@@ -85,7 +85,7 @@ var cx = new complex('" +
 
 function spacer(element) {
   var string = $(element).val();
-  string = string.replace(/' '+/g, ' ');
+  string = string.replace(/'\s\s+'+/g, ' ');
   $(element).val(string)
 }
 
