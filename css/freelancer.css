@@ -531,3 +531,8 @@ body {
     -moz-border-radius: 0 4px 4px 0; 
     border-radius: 0 4px 4px 0; 
 }
+
+.btn{
+    min-width : 118px;
+    max-width : 120px;
+}
